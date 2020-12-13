@@ -109,6 +109,7 @@ section {
 .main-section {
   background: url("https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,5 +227,8 @@ section {
     top: 20px;
     -webkit-transform: rotate(-135deg);
             transform: rotate(-135deg);
+  }
+  .main-section h1 {
+    font-size: 3rem;
   }
 }
