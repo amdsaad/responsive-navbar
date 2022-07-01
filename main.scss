@@ -41,7 +41,6 @@ header {
         display: flex;
         align-items: center;
         li {
-          margin: 0.5rem 1rem;
           position: relative;
           a {
             text-decoration: none;
@@ -54,9 +53,6 @@ header {
           &:hover a {
             color: $secondry-color;
           }
-        }
-        li:last-child {
-          margin: 0.5rem 0 0.5rem 1rem;
         }
         .active-link {
           color: $secondry-color;

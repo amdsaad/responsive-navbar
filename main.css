@@ -55,7 +55,6 @@ header .wraper .navbar ul {
 }
 
 header .wraper .navbar ul li {
-  margin: 0.5rem 1rem;
   position: relative;
 }
 
@@ -71,10 +70,6 @@ header .wraper .navbar ul li a {
 
 header .wraper .navbar ul li:hover a {
   color: #ff6666;
-}
-
-header .wraper .navbar ul li:last-child {
-  margin: 0.5rem 0 0.5rem 1rem;
 }
 
 header .wraper .navbar ul .active-link {
